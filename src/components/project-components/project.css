@@ -1,0 +1,38 @@
+/* Updated CSS for the ProjectCard component */
+.project-card {
+  padding: 20px 40px; /* Increase padding on the right and left sides */
+  margin: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #474747;
+  text-align: center;
+  min-height: 500px; /* Increase the minimum height */
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.project-card p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
